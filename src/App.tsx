@@ -30,7 +30,7 @@ export default function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>VitalScan</h1>
+        <h1>PulsePlan</h1>
         <p>Profile + simulated pulse capture → personalised energy, macros, and training sketch.</p>
       </header>
 
