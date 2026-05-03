@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="app_name">PulsePlan</string>
-    <string name="title_activity_main">PulsePlan</string>
-    <string name="package_name">com.drsaikrishnathota1.pulseplan</string>
-    <string name="custom_url_scheme">com.drsaikrishnathota1.pulseplan</string>
-</resources>

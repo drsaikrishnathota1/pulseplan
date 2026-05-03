@@ -1,5 +1,5 @@
 {
-  "name": "pulseplan-android",
+  "name": "camvitalscan-web",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -7,15 +7,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "cap:sync": "npm run build && npx cap sync",
-    "android:open": "npx cap open android",
-    "android:run": "npm run build && npx cap run android"
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@capacitor/android": "^8.3.1",
-    "@capacitor/cli": "^8.3.1",
-    "@capacitor/core": "^8.3.1",
     "react": "^19.2.5",
     "react-dom": "^19.2.5"
   },
