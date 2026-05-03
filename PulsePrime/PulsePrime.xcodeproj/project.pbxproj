@@ -404,10 +404,10 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_TESTABILITY = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = PulsePrime;
+				INFOPLIST_KEY_CFBundleDisplayName = Camvital;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
-				INFOPLIST_KEY_NSCameraUsageDescription = "PulsePrime uses the camera and LED flash to record subtle color changes in your fingertip (PPG) and estimate heart rate.";
-				INFOPLIST_KEY_NSHealthShareUsageDescription = "Optional: read heart rate samples to complement your PulsePrime history.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camvital uses the camera and LED flash to record subtle color changes in your fingertip (PPG) and estimate heart rate.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Optional: read heart rate samples to complement your Camvital history.";
 				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Optional: save heart rate readings you choose to store in Apple Health.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -439,10 +439,10 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_TESTABILITY = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = PulsePrime;
+				INFOPLIST_KEY_CFBundleDisplayName = Camvital;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
-				INFOPLIST_KEY_NSCameraUsageDescription = "PulsePrime uses the camera and LED flash to record subtle color changes in your fingertip (PPG) and estimate heart rate.";
-				INFOPLIST_KEY_NSHealthShareUsageDescription = "Optional: read heart rate samples to complement your PulsePrime history.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camvital uses the camera and LED flash to record subtle color changes in your fingertip (PPG) and estimate heart rate.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Optional: read heart rate samples to complement your Camvital history.";
 				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Optional: save heart rate readings you choose to store in Apple Health.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
