@@ -24,7 +24,7 @@ allprojects {
     }
 }
 
-// Force Java 21 toolchain for all Java compile tasks (Capacitor Android targets Java 21).
+// Use Java 21 toolchain for builds (Capacitor Android targets Java 21).
 subprojects { proj ->
     tasks.withType(JavaCompile).configureEach { task ->
         javaCompiler = javaToolchains.compilerFor {
