@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1500"
+   LastUpgradeVersion = "2640"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B50000000000000000000001"
-               BuildableName = "Camvital.app"
+               BuildableName = "CamvitalScan.app"
                BlueprintName = "PulsePrime"
                ReferencedContainer = "container:PulsePrime.xcodeproj">
             </BuildableReference>
@@ -96,7 +96,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B50000000000000000000001"
-            BuildableName = "Camvital.app"
+            BuildableName = "CamvitalScan.app"
             BlueprintName = "PulsePrime"
             ReferencedContainer = "container:PulsePrime.xcodeproj">
          </BuildableReference>
@@ -113,7 +113,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B50000000000000000000001"
-            BuildableName = "Camvital.app"
+            BuildableName = "CamvitalScan.app"
             BlueprintName = "PulsePrime"
             ReferencedContainer = "container:PulsePrime.xcodeproj">
          </BuildableReference>

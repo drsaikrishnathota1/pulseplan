@@ -58,7 +58,7 @@ struct MeasureView: View {
                     .padding(.horizontal, 18)
                 }
             }
-            .navigationTitle("PulsePrime")
+            .navigationTitle("Camvital Scan")
             .navigationBarTitleDisplayMode(.inline)
             .onReceive(timer) { date in
                 guard isMeasuring, let start = startDate else { return }

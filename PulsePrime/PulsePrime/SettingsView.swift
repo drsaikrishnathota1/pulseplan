@@ -31,11 +31,11 @@ struct SettingsView: View {
                     } header: {
                         Text("Apple Health")
                     } footer: {
-                        Text("PulsePrime is for wellness and fitness only—not a medical device. See a clinician if something feels off.")
+                        Text("Camvital Scan is for wellness and fitness only—not a medical device. See a clinician if something feels off.")
                     }
 
                     Section {
-                        Text("PulsePrime measures pulse using photoplethysmography (PPG) with the rear camera and flash. Results vary with motion, skin temperature, and lighting.")
+                        Text("Camvital Scan measures pulse using photoplethysmography (PPG) with the rear camera and flash. Results vary with motion, skin temperature, and lighting.")
                             .font(.footnote)
                             .foregroundStyle(.secondary)
                     } header: {

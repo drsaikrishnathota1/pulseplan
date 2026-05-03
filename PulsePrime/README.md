@@ -1,4 +1,4 @@
-# PulsePrime (iOS)
+# Camvital Scan (iOS) — PulsePrime project
 
 Native **SwiftUI** app that estimates **heart rate (BPM)** using the rear **camera + LED flash** (smartphone **PPG**), with a live **waveform**, **signal quality** meter, **heart-rate zones**, **history**, and optional **Apple Health** writes.
 
@@ -11,7 +11,7 @@ Native **SwiftUI** app that estimates **heart rate (BPM)** using the rear **came
 
 1. Open `PulsePrime.xcodeproj` in Xcode.
 2. Select your **development team** in the `PulsePrime` target → *Signing & Capabilities*.
-3. Change **Bundle Identifier** from `com.example.PulsePrime` to something unique (e.g. `com.yourname.pulseprime`).
+3. Bundle Identifier is **`com.drsaikrishnathota1.camvital`** (must match your App ID in the Apple Developer portal).
 4. Add a real **App Icon** (1024×1024) in `Assets.xcassets` before App Store distribution.
 5. Build & run on your iPhone. Grant **Camera** permission; optionally enable **Health** in Settings and tap **Connect Apple Health**.
 
@@ -21,7 +21,7 @@ This app is for **general wellness / fitness awareness only**. It is **not** a m
 
 ## Feature parity (vs typical “instant heart rate” apps)
 
-| Feature | PulsePrime |
+| Feature | Camvital Scan |
 | --- | --- |
 | Camera + flash PPG | Yes |
 | Live pulse / PPG-style waveform | Yes (Swift Charts) |
