@@ -1,14 +1,14 @@
 import XCTest
 
 /// Saves PNGs for App Store Connect. Run on a **6.5″ class** simulator (e.g. iPhone 17 Pro Max).
-/// Output: `/tmp/PulsePrimeAppStoreScreenshots/`
+/// Output: `/tmp/CamvitalScanAppStoreScreenshots/`
 final class AppStoreScreenshotUITests: XCTestCase {
 
     func testCapture6Point5InchScreens() throws {
         let app = XCUIApplication()
         app.launch()
 
-        let out = URL(fileURLWithPath: "/tmp/PulsePrimeAppStoreScreenshots", isDirectory: true)
+        let out = URL(fileURLWithPath: "/tmp/CamvitalScanAppStoreScreenshots", isDirectory: true)
         try FileManager.default.createDirectory(at: out, withIntermediateDirectories: true)
 
         func savePNG(_ name: String) throws {

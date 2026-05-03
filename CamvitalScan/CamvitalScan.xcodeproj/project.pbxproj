@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B10000000000000000000001 /* PulsePrimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000001 /* PulsePrimeApp.swift */; };
+		B10000000000000000000001 /* CamvitalScanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000001 /* CamvitalScanApp.swift */; };
 		B10000000000000000000002 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000002 /* Models.swift */; };
 		B10000000000000000000003 /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000003 /* HistoryStore.swift */; };
 		B10000000000000000000004 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000004 /* SettingsStore.swift */; };
@@ -32,19 +32,19 @@
 			containerPortal = B60000000000000000000001 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B50000000000000000000001;
-			remoteInfo = PulsePrime;
+			remoteInfo = CamvitalScan;
 		};
 		U80100000000000000000001 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B60000000000000000000001 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B50000000000000000000001;
-			remoteInfo = PulsePrime;
+			remoteInfo = CamvitalScan;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B20000000000000000000001 /* PulsePrimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsePrimeApp.swift; sourceTree = "<group>"; };
+		B20000000000000000000001 /* CamvitalScanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamvitalScanApp.swift; sourceTree = "<group>"; };
 		B20000000000000000000002 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		B20000000000000000000003 /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
 		B20000000000000000000004 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
@@ -60,11 +60,11 @@
 		B2000000000000000000000E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2000000000000000000000F /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		B20000000000000000000010 /* CamvitalScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CamvitalScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B20000000000000000000011 /* PulsePrime.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PulsePrime.entitlements; sourceTree = "<group>"; };
+		B20000000000000000000011 /* CamvitalScan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CamvitalScan.entitlements; sourceTree = "<group>"; };
 		T20000000000000000000001 /* SignalProcessorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalProcessorTests.swift; sourceTree = "<group>"; };
-		T20000000000000000000012 /* PulsePrimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulsePrimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		T20000000000000000000012 /* CamvitalScanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamvitalScanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		U20000000000000000000002 /* AppStoreScreenshotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreScreenshotUITests.swift; sourceTree = "<group>"; };
-		U20000000000000000000014 /* PulsePrimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulsePrimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		U20000000000000000000014 /* CamvitalScanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamvitalScanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,18 +104,18 @@
 		B40000000000000000000001 = {
 			isa = PBXGroup;
 			children = (
-				B40000000000000000000002 /* PulsePrime */,
-				T40000000000000000000004 /* PulsePrimeTests */,
-				U40000000000000000000005 /* PulsePrimeUITests */,
+				B40000000000000000000002 /* CamvitalScan */,
+				T40000000000000000000004 /* CamvitalScanTests */,
+				U40000000000000000000005 /* CamvitalScanUITests */,
 				B40000000000000000000003 /* Products */,
 				327286732FA6D055008B3E35 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
-		B40000000000000000000002 /* PulsePrime */ = {
+		B40000000000000000000002 /* CamvitalScan */ = {
 			isa = PBXGroup;
 			children = (
-				B20000000000000000000001 /* PulsePrimeApp.swift */,
+				B20000000000000000000001 /* CamvitalScanApp.swift */,
 				B20000000000000000000002 /* Models.swift */,
 				B20000000000000000000003 /* HistoryStore.swift */,
 				B20000000000000000000004 /* SettingsStore.swift */,
@@ -129,43 +129,43 @@
 				B2000000000000000000000C /* HistoryView.swift */,
 				B2000000000000000000000D /* SettingsView.swift */,
 				B2000000000000000000000E /* Assets.xcassets */,
-				B20000000000000000000011 /* PulsePrime.entitlements */,
+				B20000000000000000000011 /* CamvitalScan.entitlements */,
 			);
-			path = PulsePrime;
+			path = CamvitalScan;
 			sourceTree = "<group>";
 		};
 		B40000000000000000000003 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				B20000000000000000000010 /* CamvitalScan.app */,
-				T20000000000000000000012 /* PulsePrimeTests.xctest */,
-				U20000000000000000000014 /* PulsePrimeUITests.xctest */,
+				T20000000000000000000012 /* CamvitalScanTests.xctest */,
+				U20000000000000000000014 /* CamvitalScanUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		T40000000000000000000004 /* PulsePrimeTests */ = {
+		T40000000000000000000004 /* CamvitalScanTests */ = {
 			isa = PBXGroup;
 			children = (
 				T20000000000000000000001 /* SignalProcessorTests.swift */,
 			);
-			path = PulsePrimeTests;
+			path = CamvitalScanTests;
 			sourceTree = "<group>";
 		};
-		U40000000000000000000005 /* PulsePrimeUITests */ = {
+		U40000000000000000000005 /* CamvitalScanUITests */ = {
 			isa = PBXGroup;
 			children = (
 				U20000000000000000000002 /* AppStoreScreenshotUITests.swift */,
 			);
-			path = PulsePrimeUITests;
+			path = CamvitalScanUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B50000000000000000000001 /* PulsePrime */ = {
+		B50000000000000000000001 /* CamvitalScan */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B50000000000000000000002 /* Build configuration list for PBXNativeTarget "PulsePrime" */;
+			buildConfigurationList = B50000000000000000000002 /* Build configuration list for PBXNativeTarget "CamvitalScan" */;
 			buildPhases = (
 				B50000000000000000000003 /* Sources */,
 				B30000000000000000000001 /* Frameworks */,
@@ -175,14 +175,14 @@
 			);
 			dependencies = (
 			);
-			name = PulsePrime;
-			productName = PulsePrime;
+			name = CamvitalScan;
+			productName = CamvitalScan;
 			productReference = B20000000000000000000010 /* CamvitalScan.app */;
 			productType = "com.apple.product-type.application";
 		};
-		T50000000000000000000005 /* PulsePrimeTests */ = {
+		T50000000000000000000005 /* CamvitalScanTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = T90000000000000000000001 /* Build configuration list for PBXNativeTarget "PulsePrimeTests" */;
+			buildConfigurationList = T90000000000000000000001 /* Build configuration list for PBXNativeTarget "CamvitalScanTests" */;
 			buildPhases = (
 				T50000000000000000000006 /* Sources */,
 				T30000000000000000000002 /* Frameworks */,
@@ -193,14 +193,14 @@
 			dependencies = (
 				T80000000000000000000002 /* PBXTargetDependency */,
 			);
-			name = PulsePrimeTests;
-			productName = PulsePrimeTests;
-			productReference = T20000000000000000000012 /* PulsePrimeTests.xctest */;
+			name = CamvitalScanTests;
+			productName = CamvitalScanTests;
+			productReference = T20000000000000000000012 /* CamvitalScanTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		U50000000000000000000009 /* PulsePrimeUITests */ = {
+		U50000000000000000000009 /* CamvitalScanUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = U90300000000000000000001 /* Build configuration list for PBXNativeTarget "PulsePrimeUITests" */;
+			buildConfigurationList = U90300000000000000000001 /* Build configuration list for PBXNativeTarget "CamvitalScanUITests" */;
 			buildPhases = (
 				U50000000000000000000010 /* Sources */,
 				U30000000000000000000003 /* Frameworks */,
@@ -211,9 +211,9 @@
 			dependencies = (
 				U80200000000000000000001 /* PBXTargetDependency */,
 			);
-			name = PulsePrimeUITests;
-			productName = PulsePrimeUITests;
-			productReference = U20000000000000000000014 /* PulsePrimeUITests.xctest */;
+			name = CamvitalScanUITests;
+			productName = CamvitalScanUITests;
+			productReference = U20000000000000000000014 /* CamvitalScanUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -239,7 +239,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B60000000000000000000002 /* Build configuration list for PBXProject "PulsePrime" */;
+			buildConfigurationList = B60000000000000000000002 /* Build configuration list for PBXProject "CamvitalScan" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -252,9 +252,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B50000000000000000000001 /* PulsePrime */,
-				T50000000000000000000005 /* PulsePrimeTests */,
-				U50000000000000000000009 /* PulsePrimeUITests */,
+				B50000000000000000000001 /* CamvitalScan */,
+				T50000000000000000000005 /* CamvitalScanTests */,
+				U50000000000000000000009 /* CamvitalScanUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -289,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B10000000000000000000001 /* PulsePrimeApp.swift in Sources */,
+				B10000000000000000000001 /* CamvitalScanApp.swift in Sources */,
 				B10000000000000000000002 /* Models.swift in Sources */,
 				B10000000000000000000003 /* HistoryStore.swift in Sources */,
 				B10000000000000000000004 /* SettingsStore.swift in Sources */,
@@ -326,12 +326,12 @@
 /* Begin PBXTargetDependency section */
 		T80000000000000000000002 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B50000000000000000000001 /* PulsePrime */;
+			target = B50000000000000000000001 /* CamvitalScan */;
 			targetProxy = T80000000000000000000001 /* PBXContainerItemProxy */;
 		};
 		U80200000000000000000001 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B50000000000000000000001 /* PulsePrime */;
+			target = B50000000000000000000001 /* CamvitalScan */;
 			targetProxy = U80100000000000000000001 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -439,7 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = PulsePrime/PulsePrime.entitlements;
+				CODE_SIGN_ENTITLEMENTS = CamvitalScan/CamvitalScan.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q976JY4DNU;
@@ -474,7 +474,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = PulsePrime/PulsePrime.entitlements;
+				CODE_SIGN_ENTITLEMENTS = CamvitalScan/CamvitalScan.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q976JY4DNU;
@@ -577,7 +577,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
-				TEST_TARGET_NAME = PulsePrime;
+				TEST_TARGET_NAME = CamvitalScan;
 			};
 			name = Debug;
 		};
@@ -602,14 +602,14 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
-				TEST_TARGET_NAME = PulsePrime;
+				TEST_TARGET_NAME = CamvitalScan;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B50000000000000000000002 /* Build configuration list for PBXNativeTarget "PulsePrime" */ = {
+		B50000000000000000000002 /* Build configuration list for PBXNativeTarget "CamvitalScan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B70000000000000000000003 /* Debug */,
@@ -618,7 +618,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B60000000000000000000002 /* Build configuration list for PBXProject "PulsePrime" */ = {
+		B60000000000000000000002 /* Build configuration list for PBXProject "CamvitalScan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B70000000000000000000001 /* Debug */,
@@ -627,7 +627,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		T90000000000000000000001 /* Build configuration list for PBXNativeTarget "PulsePrimeTests" */ = {
+		T90000000000000000000001 /* Build configuration list for PBXNativeTarget "CamvitalScanTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				T70000000000000000000005 /* Debug */,
@@ -636,7 +636,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		U90300000000000000000001 /* Build configuration list for PBXNativeTarget "PulsePrimeUITests" */ = {
+		U90300000000000000000001 /* Build configuration list for PBXNativeTarget "CamvitalScanUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				U70100000000000000000009 /* Debug */,

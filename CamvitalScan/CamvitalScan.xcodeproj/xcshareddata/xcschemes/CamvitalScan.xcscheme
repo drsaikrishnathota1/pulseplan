@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B50000000000000000000001"
                BuildableName = "CamvitalScan.app"
-               BlueprintName = "PulsePrime"
-               ReferencedContainer = "container:PulsePrime.xcodeproj">
+               BlueprintName = "CamvitalScan"
+               ReferencedContainer = "container:CamvitalScan.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "T50000000000000000000005"
-               BuildableName = "PulsePrimeTests.xctest"
-               BlueprintName = "PulsePrimeTests"
-               ReferencedContainer = "container:PulsePrime.xcodeproj">
+               BuildableName = "CamvitalScanTests.xctest"
+               BlueprintName = "CamvitalScanTests"
+               ReferencedContainer = "container:CamvitalScan.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "U50000000000000000000009"
-               BuildableName = "PulsePrimeUITests.xctest"
-               BlueprintName = "PulsePrimeUITests"
-               ReferencedContainer = "container:PulsePrime.xcodeproj">
+               BuildableName = "CamvitalScanUITests.xctest"
+               BlueprintName = "CamvitalScanUITests"
+               ReferencedContainer = "container:CamvitalScan.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -63,9 +63,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "T50000000000000000000005"
-               BuildableName = "PulsePrimeTests.xctest"
-               BlueprintName = "PulsePrimeTests"
-               ReferencedContainer = "container:PulsePrime.xcodeproj">
+               BuildableName = "CamvitalScanTests.xctest"
+               BlueprintName = "CamvitalScanTests"
+               ReferencedContainer = "container:CamvitalScan.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -74,9 +74,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "U50000000000000000000009"
-               BuildableName = "PulsePrimeUITests.xctest"
-               BlueprintName = "PulsePrimeUITests"
-               ReferencedContainer = "container:PulsePrime.xcodeproj">
+               BuildableName = "CamvitalScanUITests.xctest"
+               BlueprintName = "CamvitalScanUITests"
+               ReferencedContainer = "container:CamvitalScan.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -97,8 +97,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B50000000000000000000001"
             BuildableName = "CamvitalScan.app"
-            BlueprintName = "PulsePrime"
-            ReferencedContainer = "container:PulsePrime.xcodeproj">
+            BlueprintName = "CamvitalScan"
+            ReferencedContainer = "container:CamvitalScan.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -114,8 +114,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B50000000000000000000001"
             BuildableName = "CamvitalScan.app"
-            BlueprintName = "PulsePrime"
-            ReferencedContainer = "container:PulsePrime.xcodeproj">
+            BlueprintName = "CamvitalScan"
+            ReferencedContainer = "container:CamvitalScan.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

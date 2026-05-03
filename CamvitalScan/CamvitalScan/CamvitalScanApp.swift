@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct PulsePrimeApp: App {
+struct CamvitalScanApp: App {
     @StateObject private var history = HistoryStore()
     @StateObject private var settings = SettingsStore()
     @StateObject private var healthKit = HealthKitManager()

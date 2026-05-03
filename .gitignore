@@ -28,5 +28,6 @@ dist-ssr
 **/*.jks
 android/keystore.properties
 
-# Local iOS archive export (folder PulsePrime/ is source of truth)
+# Local iOS archive export (folder CamvitalScan/ is source of truth)
+CamvitalScan-iOS.zip
 PulsePrime-iOS.zip

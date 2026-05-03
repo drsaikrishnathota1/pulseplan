@@ -1,5 +1,5 @@
 import XCTest
-@testable import PulsePrime
+@testable import CamvitalScan
 
 final class SignalProcessorTests: XCTestCase {
 
